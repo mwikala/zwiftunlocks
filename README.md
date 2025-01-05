@@ -8,14 +8,10 @@ This script automates the process of entering secret unlock codes in Zwift by si
 - Simulates the keyboard presses required to enter the codes in Zwift.
 - Includes timing adjustments to ensure smooth operation.
 
----
-
 ## Requirements
 
 - Python 3.6 or higher
 - [`pyautogui`](https://pypi.org/project/PyAutoGUI/)
-
----
 
 ## Setup and Usage
 
@@ -48,15 +44,11 @@ The script will:
 3. Press `Enter` to submit the code.
 4. Wait briefly before moving to the next code.
 
----
-
 ## Notes
 
 - Ensure Zwift is in focus when running the script, as `pyautogui` sends keyboard inputs to the active window.
 - Adjust the delay times in the script if Zwift requires more time to process inputs.
 - If the `codes.txt` file is missing or empty, the script will notify you and exit.
-
----
 
 ## Troubleshooting
 
@@ -66,20 +58,6 @@ The script will:
    - Increase the delay times in the `time.sleep()` calls within the script.
 3. **Keyboard input doesn't work.**
    - Verify Zwift is the active window before starting the script.
-
----
-
-## Customisation
-
-- **Log Success/Failure**: Modify the script to log results into a separate file if needed.
-
----
-
-## Disclaimer
-
-This script is provided for educational purposes. Use it responsibly and ensure compliance with Zwift's terms of service.
-
----
 
 ### License
 
