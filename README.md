@@ -1,4 +1,4 @@
-# Zwift Code Entry Automation
+# Zwift Jersey Unlock Automation
 
 This script automates the process of entering secret unlock codes in Zwift by simulating keyboard inputs. It reads codes from a text file (`codes.txt`), opens the code entry window in Zwift, types each code, and submits it.
 
